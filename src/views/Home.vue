@@ -8,6 +8,13 @@
       <div class="absolute right-4 top-1/2 transform -translate-y-1/2">
         <img src="../assets/next.png" alt="" />
       </div>
+
+      <div class="absolute bottom-3 w-full flex justify-center">
+        <div class="w-2 h-2 rounded-full mr-2 bg-white bg-opacity-90"></div>
+        <div class="w-2 h-2 rounded-full mr-2 bg-white bg-opacity-70"></div>
+        <div class="w-2 h-2 rounded-full mr-2 bg-white bg-opacity-50"></div>
+        <div class="w-2 h-2 rounded-full mr-2 bg-white bg-opacity-30"></div>
+      </div>
     </div>
     <div class="p-8">
       <div>
