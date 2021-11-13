@@ -50,7 +50,7 @@
         <h1 class="font-source-sans text-2xl text-primary-green-dark">
           Property Details
         </h1>
-        <ul class="text-sm font-dm-sans list-disc border-2 border-red-600">
+        <ul class="text-sm font-dm-sans list-disc pl-7">
           <li class="mt-2">3 bedroom apartment, all en suite</li>
           <li class="mt-2">Spacious Terrace</li>
           <li class="mt-2">Uninterrupted Electricity and WiFi</li>
@@ -66,11 +66,20 @@
             p-5
             w-full
             rounded-lg
+            focus:outline-none
           "
         >
           Book
         </button>
-        <button class="text-primary-green-dark font-bold p-5 w-full">
+        <button
+          class="
+            text-primary-green-dark
+            font-bold
+            p-5
+            w-full
+            focus:outline-none
+          "
+        >
           Contact
         </button>
       </div>
