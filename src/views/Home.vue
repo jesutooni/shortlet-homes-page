@@ -46,14 +46,14 @@
         <div class="w-2 h-2 rounded-full mr-2 bg-white bg-opacity-30"></div>
       </div>
     </div>
-    <div class="p-8">
+    <div class="p-7">
       <div>
         <div>
           <h1
             class="
               font-source-sans
               text-primary-green-dark text-2xl
-              mr-2
+              mr-1
               inline
             "
           >
@@ -78,7 +78,7 @@
         <h1 class="font-source-sans text-2xl text-primary-green-dark">
           Description
         </h1>
-        <p class="font-dm-sans text-justify text-sm">
+        <p class="font-dm-sans text-justify text-sm mt-2">
           This property is situated on the fast developing Lagos Island area.
           With a vivid view of the Atlantic Ocean and a mesmerizing skyline.
         </p>
