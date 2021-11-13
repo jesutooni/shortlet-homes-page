@@ -2,11 +2,41 @@
   <div>
     <div class="relative">
       <img src="../assets/room.png" alt="" />
-      <div class="absolute left-4 top-1/2 transform -translate-y-1/2">
-        <img src="../assets/previous.png" alt="" />
+      <div
+        class="
+          w-8
+          h-8
+          flex
+          justify-center
+          items-center
+          bg-white
+          rounded-full
+          absolute
+          left-4
+          top-1/2
+          transform
+          -translate-y-1/2
+        "
+      >
+        <img class="w-2" src="../assets/icon-previous.svg" alt="" />
       </div>
-      <div class="absolute right-4 top-1/2 transform -translate-y-1/2">
-        <img src="../assets/next.png" alt="" />
+      <div
+        class="
+          w-8
+          h-8
+          flex
+          justify-center
+          items-center
+          bg-white
+          rounded-full
+          absolute
+          top-1/2
+          right-4
+          transform
+          -translate-y-1/2
+        "
+      >
+        <img class="w-2" src="../assets/icon-next.svg" alt="" />
       </div>
 
       <div class="absolute bottom-3 w-full flex justify-center">
