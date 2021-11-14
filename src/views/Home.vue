@@ -1,8 +1,13 @@
 <template>
   <div>
-    <div class="relative">
-      <img src="../assets/room.png" alt="" />
+    <div class="relative w-full pb-4/5 overflow-hidden">
+      <img
+        class="absolute w-full h-full object-cover"
+        :src="rooms[currentRoom]"
+        alt=""
+      />
       <div
+        @click="prevRoom"
         class="
           w-8
           h-8
@@ -21,6 +26,7 @@
         <img class="w-2" src="../assets/icon-previous.svg" alt="" />
       </div>
       <div
+        @click="nextRoom"
         class="
           w-8
           h-8
@@ -127,5 +133,30 @@
 <script>
 export default {
   name: "Home",
+  data() {
+    return {
+      rooms: [
+        require("../assets/room1.png"),
+        require("../assets/room2.png"),
+        require("../assets/room3.png"),
+        require("../assets/room4.png"),
+      ],
+      currentRoom: 0,
+    };
+  },
+  methods: {
+    nextRoom() {
+      this.currentRoom++;
+      if (this.currentRoom > this.rooms.length - 1) {
+        this.currentRoom = 0;
+      }
+    },
+    prevRoom() {
+      this.currentRoom--;
+      if (this.currentRoom < 0) {
+        this.currentRoom = this.rooms.length - 1;
+      }
+    },
+  },
 };
 </script>

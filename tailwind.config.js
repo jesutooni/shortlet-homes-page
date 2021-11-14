@@ -15,6 +15,9 @@ module.exports = {
           },
         },
       },
+      spacing: {
+        "4/5": "80%",
+      },
     },
   },
   variants: {
